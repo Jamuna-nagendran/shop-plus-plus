@@ -47,11 +47,9 @@ const getProducts = async (req, res, next) => {
             attrs: { $elemMatch: { key: a[0], value: { $in: values } } },
           };
           acc.push(a1);
-          // console.dir(acc, { depth: null })
           return acc;
         } else return acc;
       }, []);
-      //   console.dir(attrsQueryCondition, { depth: null });
       queryCondition = true;
     }
 

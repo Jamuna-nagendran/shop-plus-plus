@@ -74,10 +74,10 @@ Optionally, you can seed data into the database by running the following command
 
 ```bash
 #Delete the existing data in the Database
-node seeder/seeder -d
+npm seed:data-d
 
 #Populate Database with new Data
-ode seeder/seeder
+npm seed:data
 ```
 
 ## Application Features
