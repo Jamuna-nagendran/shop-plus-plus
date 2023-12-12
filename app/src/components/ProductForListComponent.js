@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import { Rating } from "react-simple-star-rating";
 import { LinkContainer } from "react-router-bootstrap";
+import formatPrice from "../utils/priceFormatter";
 
 const ProductForListComponent = ({ products }) => {
   return (
@@ -38,7 +39,7 @@ const ProductForListComponent = ({ products }) => {
               </div>
               <div>
                 <Card.Text className="h4">
-                  &#8377;{product.price}{" "}
+                  {formatPrice(product.price)}{" "}
                   <LinkContainer to={`/product-details/${product._id}`}>
                     <Button variant="danger">See product</Button>
                   </LinkContainer>

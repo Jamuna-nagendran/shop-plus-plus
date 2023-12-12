@@ -1,10 +1,12 @@
 import { Form } from "react-bootstrap";
+import formatPrice from "../../utils/priceFormatter";
 
 const PriceFilterComponent = ({ price, setPrice }) => {
   return (
     <>
       <Form.Label>
-        <span className="fw-bold">Price no greater than:</span> {price}$
+        <span className="fw-bold">Price no greater than:</span>{" "}
+        {formatPrice(price)}
       </Form.Label>
       <Form.Range
         min={10}

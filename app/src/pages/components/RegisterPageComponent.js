@@ -17,7 +17,9 @@ const RegisterPageComponent = ({
 
   const onChange = () => {
     const password = document.querySelector("input[name=password]");
-    const confirmPassword = document.querySelector("input[name=confirmPassword]");
+    const confirmPassword = document.querySelector(
+      "input[name=confirmPassword]"
+    );
     if (confirmPassword.value === password.value) {
       setPasswordsMatchState(true);
     } else {
@@ -49,7 +51,6 @@ const RegisterPageComponent = ({
             loading: false,
           });
           reduxDispatch(setReduxUserState(data.userCreated));
-          
         })
         .catch((er) =>
           setRegisterUserResponseState({
@@ -140,7 +141,7 @@ const RegisterPageComponent = ({
 
             <Row className="pb-2">
               <Col>
-                Do you have an account already?
+                Do you already have an account?
                 <Link to={"/login"}> Login </Link>
               </Col>
             </Row>
@@ -160,10 +161,22 @@ const RegisterPageComponent = ({
               )}
               Submit
             </Button>
-            <Alert show={registerUserResponseState && registerUserResponseState.error === "user exists"} variant="danger">
+            <Alert
+              show={
+                registerUserResponseState &&
+                registerUserResponseState.error === "user exists"
+              }
+              variant="danger"
+            >
               User with that email already exists!
             </Alert>
-            <Alert show={registerUserResponseState && registerUserResponseState.success === "User created"} variant="info">
+            <Alert
+              show={
+                registerUserResponseState &&
+                registerUserResponseState.success === "User created"
+              }
+              variant="info"
+            >
               User created
             </Alert>
           </Form>

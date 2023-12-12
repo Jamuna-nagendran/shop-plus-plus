@@ -45,12 +45,7 @@ const OrderDetailsPageComponent = ({ getOrder, markAsDelivered }) => {
         }
         setCartItems(order.cartItems);
       })
-      .catch(
-        (er) => dispatch(logout())
-        // console.log(
-        //   er.response.data.message ? er.response.data.message : er.response.data
-        // )
-      );
+      .catch((er) => dispatch(logout()));
   }, [isDelivered, id]);
   return (
     <Container fluid>
@@ -109,8 +104,7 @@ const OrderDetailsPageComponent = ({ getOrder, markAsDelivered }) => {
               <h3>Order summary</h3>
             </ListGroup.Item>
             <ListGroup.Item>
-              Items price (after tax):{" "}
-              <span className="fw-bold">${cartSubtotal}</span>
+              Items price: <span className="fw-bold">${cartSubtotal}</span>
             </ListGroup.Item>
             <ListGroup.Item>
               Shipping: <span className="fw-bold">included</span>

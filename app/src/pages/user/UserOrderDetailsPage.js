@@ -2,7 +2,7 @@ import UserOrderDetailsPageComponent from "./components/UserOrderDetailsPageComp
 import { useSelector } from "react-redux";
 import axios from "axios";
 import { loadScript } from "@paypal/paypal-js";
-import { useEffect } from "react"; // Import useEffect
+import { useEffect } from "react";
 
 const getOrder = async (orderId) => {
   const { data } = await axios.get("/api/orders/user/" + orderId);
@@ -47,7 +47,7 @@ const buttons = (cartSubtotal, cartItems, orderId, updateStateAfterOrder) => {
               },
             },
             items: cartItems.map((product) => {
-              const trimmedName = product.name.substring(0, 127); // Trim the name to a suitable length
+              const trimmedName = product.name.substring(0, 127);
               return {
                 name: trimmedName,
                 unit_amount: {
@@ -104,19 +104,17 @@ const UserOrderDetailsPage = () => {
       const { data } = await axios.get("/api/users/profile/" + userInfo._id);
       return data;
     }
-    // Handle the case where userInfo or userInfo._id is undefined.
+
     return null;
   };
 
   useEffect(() => {
     const fetchData = async () => {
       const userData = await getUser();
-      // Do something with userData if needed.
     };
 
     fetchData();
-  }, [userInfo]); // Run the effect when userInfo changes
-
+  }, [userInfo]);
   return (
     <UserOrderDetailsPageComponent
       userInfo={userInfo}

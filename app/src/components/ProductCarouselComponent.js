@@ -27,8 +27,8 @@ const ProductCarouselComponent = ({ bestSellers }) => {
         const [r, g, b] = ctx.getImageData(0, 0, 1, 1).data;
         const contrastType = calculateContrast(r, g, b);
 
-        setTextColor(contrastType === "dark" ? "white" : "black");
-        setBackgroundColor(`rgba(${r}, ${g}, ${b}, 0.5)`);
+        setTextColor("black");
+        setBackgroundColor(`rgba(${r}, ${g}, ${b}, 0.8)`);
       };
     }
   }, [bestSellers]);

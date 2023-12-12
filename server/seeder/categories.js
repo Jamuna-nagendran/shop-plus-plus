@@ -3,7 +3,7 @@ const categories = [
     name: "Electronics",
     description:
       "Explore the latest innovations in our diverse electronics collection. From cutting-edge gadgets to essential tech accessories, our curated range ensures you stay connected, entertained, and equipped with the latest electronic advancements.",
-    image: "/images/tablets-category.png",
+    image: "/images/electronics-category.jpg",
     attrs: [
       {
         key: "Brands",
@@ -42,10 +42,10 @@ const categories = [
     name: "Books",
     description:
       "Embark on literary adventures with our extensive collection of books. From gripping novels to insightful non-fiction, our selection caters to diverse tastes, offering a world of knowledge and imagination at your fingertips.",
-    image: "/images/tablets-category.png",
+    image: "/images/books-category.jpg",
     attrs: [
       {
-        key: "English & Indian Languages",
+        key: "English and Indian Languages",
         value: ["English", "Hindi", "Marathi", "Tamil", "Telugu"],
       },
       {
@@ -140,7 +140,6 @@ const categories = [
           "Just Peachy!",
           "KiranaMarket",
           "SHOPPERS STOP COM",
-          "Venus.Enterprise",
           "SUPER COSMETICS STORE",
           "NumBrave",
         ],
@@ -162,8 +161,8 @@ const categories = [
   {
     name: "Men's Clothing",
     description:
-      "Elevate your wardrobe with our diverse range of clothing and accessories. Explore the latest fashion trends and timeless classics that seamlessly blend style and comfort. From everyday essentials to statement pieces, our curated collection caters to every occasion, ensuring you step out with confidence and flair. Discover a world of possibilities as you redefine your personal style with our meticulously selected clothing and accessories.",
-    image: "/images/clothing-accessories-category.jpg",
+      "Elevate your style with our men's collection, blending contemporary trends and comfort effortlessly. From sharp formal wear to laid-back casuals, each piece ensures versatility with lasting impressions.",
+    image: "/images/men-clothing-category.jpg",
     attrs: [
       {
         key: "color",
@@ -224,13 +223,11 @@ const categories = [
         key: "Seller",
         value: [
           "Cocoblu Retail",
-          "JockeyIndia",
           "RK World Infocom Pvt Ltd",
           "VRP Telematics",
           "KUKU KI DUKAN",
           "RetailEZ Pvt Ltd",
           "HOUSE OF COMFORT",
-          "Janasya",
           "POSEIDON BHL",
           "SIRIL",
         ],
@@ -240,8 +237,8 @@ const categories = [
   {
     name: "Women's Clothing",
     description:
-      "Elevate your wardrobe with our diverse range of clothing and accessories. Explore the latest fashion trends and timeless classics that seamlessly blend style and comfort. From everyday essentials to statement pieces, our curated collection caters to every occasion, ensuring you step out with confidence and flair. Discover a world of possibilities as you redefine your personal style with our meticulously selected clothing and accessories.",
-    image: "/images/clothing-accessories-category.jpg",
+      "Discover chic elegance in our women's collection, seamlessly fusing fashion-forward trends with comfort. From sophisticated ensembles to relaxed chic, each piece is tailored for versatile, timeless style.",
+    image: "/images/women-clothing-category.jpg",
     attrs: [
       {
         key: "color",
@@ -294,7 +291,6 @@ const categories = [
         key: "Seller",
         value: [
           "Cocoblu Retail",
-          "JockeyIndia",
           "RK World Infocom Pvt Ltd",
           "VRP Telematics",
           "KUKU KI DUKAN",

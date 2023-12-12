@@ -85,7 +85,6 @@ const HeaderComponent = () => {
         }
       );
       socket.on("disconnected", ({ reason, socketId }) => {
-        //   console.log(socketId, reason)
         dispatch(removeChatRoom(socketId));
       });
       return () => socket.disconnect();
@@ -119,6 +118,7 @@ const HeaderComponent = () => {
                 ))}
               </DropdownButton>
               <Form.Control
+                className="search-bar"
                 onKeyUp={submitHandler}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 type="text"
@@ -140,24 +140,35 @@ const HeaderComponent = () => {
                 </Nav.Link>
               </LinkContainer>
             ) : userInfo.name && !userInfo.isAdmin ? (
-              <NavDropdown
-                title={`${userInfo.name} ${userInfo.lastName}`}
-                id="collasible-nav-dropdown"
-              >
-                <NavDropdown.Item
-                  eventKey="/user/my-orders"
-                  as={Link}
-                  to="/user/my-orders"
+              <>
+                <NavDropdown
+                  title={`${userInfo.name} ${userInfo.lastName}`}
+                  id="collasible-nav-dropdown"
                 >
-                  My orders
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/user" as={Link} to="/user">
-                  My profile
-                </NavDropdown.Item>
-                <NavDropdown.Item onClick={() => dispatch(logout())}>
-                  Logout
-                </NavDropdown.Item>
-              </NavDropdown>
+                  <NavDropdown.Item
+                    eventKey="/user/my-orders"
+                    as={Link}
+                    to="/user/my-orders"
+                  >
+                    My orders
+                  </NavDropdown.Item>
+                  <NavDropdown.Item eventKey="/user" as={Link} to="/user">
+                    My profile
+                  </NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => dispatch(logout())}>
+                    Logout
+                  </NavDropdown.Item>
+                </NavDropdown>
+                <LinkContainer to="/cart">
+                  <Nav.Link>
+                    <Badge pill bg="danger">
+                      {itemsCount === 0 ? "" : itemsCount}
+                    </Badge>
+                    <i className="bi bi-cart-dash"></i>
+                    <span className="ms-1">CART</span>
+                  </Nav.Link>
+                </LinkContainer>
+              </>
             ) : (
               <>
                 <LinkContainer to="/login">
@@ -166,18 +177,17 @@ const HeaderComponent = () => {
                 <LinkContainer to="/register">
                   <Nav.Link>Register</Nav.Link>
                 </LinkContainer>
+                <LinkContainer to="/cart">
+                  <Nav.Link>
+                    <Badge pill bg="danger">
+                      {itemsCount === 0 ? "" : itemsCount}
+                    </Badge>
+                    <i className="bi bi-cart-dash"></i>
+                    <span className="ms-1">CART</span>
+                  </Nav.Link>
+                </LinkContainer>
               </>
             )}
-
-            <LinkContainer to="/cart">
-              <Nav.Link>
-                <Badge pill bg="danger">
-                  {itemsCount === 0 ? "" : itemsCount}
-                </Badge>
-                <i className="bi bi-cart-dash"></i>
-                <span className="ms-1">CART</span>
-              </Nav.Link>
-            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>

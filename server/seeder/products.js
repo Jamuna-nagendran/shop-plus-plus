@@ -347,7 +347,7 @@ The superfast chip powers advanced features like computational photography, flui
     Operating System: Oxygen OS based on Android 13.1\n
     Processor: Qualcomm Snapdragon 695 5G.\n
     Battery & Charging: 5000 mAh with 67W SUPERVOOC Endurance Edition\n`,
-    count: 60,
+    count: 70,
     price: 50000,
     category: "Electronics",
     sales: 55,
@@ -375,10 +375,10 @@ The superfast chip powers advanced features like computational photography, flui
     8GB LPDDR5X RAM, 128GB UFS3.1 STORAGE\n
     Battery & Charging: 5000 mAh with 100W SuperVOOC\n
     In-Display Fingerprint Sensor\n`,
-    count: 60,
+    count: 80,
     price: 85000,
     category: "Electronics",
-    sales: 55,
+    sales: 75,
     images: [
       { path: "/images/products/electronics/oneplus3_1.jpg" },
       { path: "/images/products/electronics/oneplus3_2.jpg" },
@@ -405,7 +405,7 @@ The superfast chip powers advanced features like computational photography, flui
     count: 60,
     price: 8500,
     category: "Electronics",
-    sales: 35,
+    sales: 40,
     images: [
       { path: "/images/products/electronics/sony1_1.jpg" },
       { path: "/images/products/electronics/sony1_2.jpg" },
@@ -429,7 +429,7 @@ The superfast chip powers advanced features like computational photography, flui
     Crystal clear hands-free calling with built-in mic.\n
     Multipoint connection allows you to quickly switch between two devices at once.\n
     Find your headphones easily with Fast Pair\n`,
-    count: 60,
+    count: 100,
     price: 4500,
     category: "Electronics",
     sales: 55,
@@ -493,7 +493,7 @@ The superfast chip powers advanced features like computational photography, flui
     ],
     attrs: [
       { key: "Brands", value: "Mee" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -506,7 +506,7 @@ The superfast chip powers advanced features like computational photography, flui
     Easy and Convenient Baby Vessel Washing Liquid: Simplify your baby's mealtime with our hassle-free baby dishwash liquid, making bottle cleaning a breeze for busy parents.\n
     Gentle on Baby Clothes: Our baby laundry liquid detergent is not just for bottles; it also works wonders on your little one's clothes, ensuring they stay soft, clean, and safe for your baby's sensitive skin.\n
     Trusted Brand for Baby Care: Mee Mee is a brand you can rely on for premium baby care products. Our baby milk bottle cleaning liquid provides the utmost care and cleanliness for your baby's feeding essentials, giving you peace of mind.\n`,
-    count: 60,
+    count: 70,
     price: 251,
     category: "Baby",
     sales: 55,
@@ -517,7 +517,7 @@ The superfast chip powers advanced features like computational photography, flui
     ],
     attrs: [
       { key: "Brands", value: "Mee" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -539,7 +539,7 @@ The superfast chip powers advanced features like computational photography, flui
     ],
     attrs: [
       { key: "Brands", value: "Mee" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -557,7 +557,7 @@ The superfast chip powers advanced features like computational photography, flui
     count: 60,
     price: 955,
     category: "Baby",
-    sales: 55,
+    sales: 34,
     images: [
       { path: "/images/products/baby/pampers1_1.jpg" },
       { path: "/images/products/baby/pampers1_2.jpg" },
@@ -565,7 +565,7 @@ The superfast chip powers advanced features like computational photography, flui
     ],
     attrs: [
       { key: "Brands", value: "Pampers" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -700,10 +700,10 @@ The superfast chip powers advanced features like computational photography, flui
     Khus grass: keeps skin cool and fresh. Organic : Yes\n
     PACKER: The Himalaya Drug Company,Tumkur Road, Makali, Bangalore - 562162; IMPORTER: The Himalaya Drug Company,Tumkur Road, Makali, Bangalore - 562162\n
     Free from parabens, phthalates and synthetic colors, the usual factors for rashes and allergies\n`,
-    count: 60,
+    count: 160,
     price: 318,
     category: "Baby",
-    sales: 55,
+    sales: 70,
     images: [
       { path: "/images/products/baby/himalaya1_1.jpg" },
       { path: "/images/products/baby/himalaya1_2.jpg" },
@@ -711,7 +711,7 @@ The superfast chip powers advanced features like computational photography, flui
     ],
     attrs: [
       { key: "Brands", value: "Himalaya" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -737,7 +737,7 @@ The superfast chip powers advanced features like computational photography, flui
     ],
     attrs: [
       { key: "Brands", value: "Himalaya" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -774,10 +774,10 @@ The superfast chip powers advanced features like computational photography, flui
     SUITABLR FOR YOUR NEWBORN'S DELICATE SKIN The natural nutrients present in goat milk gets easily absorbed in the delicate skin of your baby and keeps it moisturized for long time. Goat milk also helps in soothing dry & itchy skin of babies.\n
     SUITS DRY, ITCHY, ECZEMA PRONE SKIN One of the best known ingredient to soothe dry, itchy and irritated skin - unflavored oats. It is also a great cleansing agent for eczema prone skin.; Dermatologically Tested pH Balanced Certified Toxin Free Hypoallergenic.\n
     Color Name: White\n`,
-    count: 60,
+    count: 170,
     price: 200,
     category: "Baby",
-    sales: 55,
+    sales: 155,
     images: [
       { path: "/images/products/baby/mamaearth1_1.jpg" },
       { path: "/images/products/baby/mamaearth1_2.jpg" },
@@ -797,10 +797,10 @@ The superfast chip powers advanced features like computational photography, flui
     WATERPROOF : Our waterproof patches are ideal for any outdoor activities like sports, camping, school, park etc.\n
     FAMILY SAFE : Our patches provide all natural defence against Dengue, Malaria and Chikungunya. They are safe for the entire family including babies and toddlers as they are non toxic without any pesticides & DEET free with no side effects like eyes irritation or skin damage.\n
     RESEALABLE ZIP POUCH : Our patches have superior adhesive quality of 3M tape that can be pasted anywhere. Each pouch contains 12 sheets of 2 patches in a zip lock packaging to ensure we preserve the efficacy of our patches.\n`,
-    count: 60,
+    count: 80,
     price: 150,
     category: "Baby",
-    sales: 55,
+    sales: 52,
     images: [
       { path: "/images/products/baby/mamaearth2_1.jpg" },
       { path: "/images/products/baby/mamaearth2_2.jpg" },
@@ -855,7 +855,7 @@ The superfast chip powers advanced features like computational photography, flui
     ],
     attrs: [
       { key: "Brands", value: "Bumtum" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -924,7 +924,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Jan Yager" },
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Repro Books-On-Demand" },
     ],
@@ -946,7 +946,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Jan Yager" },
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "Hindi" },
+      { key: "English and Indian Languages", value: "Hindi" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Mumbai gift corner" },
     ],
@@ -968,7 +968,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Jan Yager" },
       { key: "Format", value: "Hardcover" },
-      { key: "English & Indian Languages", value: "Hindi" },
+      { key: "English and Indian Languages", value: "Hindi" },
       { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Sunrise Book store" },
     ],
@@ -990,7 +990,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Jan Yager" },
       { key: "Format", value: "Audiobook" },
-      { key: "English & Indian Languages", value: "Hindi" },
+      { key: "English and Indian Languages", value: "Hindi" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Mumbai gift corner" },
     ],
@@ -1002,7 +1002,7 @@ The superfast chip powers advanced features like computational photography, flui
     name: "The Fast Track Guide to Speaking in Public",
     description: `This practical and well-written guide to the all-important fundmantal skills of being able to speak in public covers such basics as the style and structure of typical speeches including delivering a keynote, participating in a panel, conducting a workshop, and more. In addition to Yager’s own extensive speaking experiences, the author includes excerpts from interviews or communications with other speakersincluding one speaker who did let his stuttering stop him from speaking. There are is a chapter on protocol issues that speakers have to be concerned about as well as 12 of the most dreaded situations you might encounter as a speaker, and how to handle each one, from being booed or not wanting to speak to forgetting what you had to say or what to do when your computer (Power Point) fails to work. There are also chapters on the special concerns of authors who speak, tips for handling a TV interview, the mechanics of speaking, and 12 secrets of successful speakers. Includes references, resources, and an Appendix with sample pre-speaking surveys, a post-speaking evaluation; indexed.
     Dr. Jan Yager is a professional international speaker, workshop leader, coach, consultant, and award-winning author whose more than 30 books have been translated into 32 languages. Her titles include Business Protocol; Work Less, Do More; Effective Business and Nonfiction Writing; When Friendship Hurts; Productive Relationships; Grow Global; Creative Time Management for the New Millennium; and Who's That Sitting at My Desk. Beginning in her twenties, Dr. Jan Yager has delivered keynote addresses, and conducted workshops and all-day seminars, throughout the U.S. and internationally, before a variety of public, government, association, and corporate audiences. For more information, go to: www.drjanyager.com`,
-    count: 60,
+    count: 160,
     price: 500,
     category: "Books",
     sales: 55,
@@ -1010,7 +1010,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Jan Yager" },
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Sunrise Book store" },
     ],
@@ -1022,7 +1022,7 @@ The superfast chip powers advanced features like computational photography, flui
     name: "The Fast Track Guide to Speaking in Public",
     description: `This practical and well-written guide to the all-important fundmantal skills of being able to speak in public covers such basics as the style and structure of typical speeches including delivering a keynote, participating in a panel, conducting a workshop, and more. In addition to Yager’s own extensive speaking experiences, the author includes excerpts from interviews or communications with other speakersincluding one speaker who did let his stuttering stop him from speaking. There are is a chapter on protocol issues that speakers have to be concerned about as well as 12 of the most dreaded situations you might encounter as a speaker, and how to handle each one, from being booed or not wanting to speak to forgetting what you had to say or what to do when your computer (Power Point) fails to work. There are also chapters on the special concerns of authors who speak, tips for handling a TV interview, the mechanics of speaking, and 12 secrets of successful speakers. Includes references, resources, and an Appendix with sample pre-speaking surveys, a post-speaking evaluation; indexed.
     Dr. Jan Yager is a professional international speaker, workshop leader, coach, consultant, and award-winning author whose more than 30 books have been translated into 32 languages. Her titles include Business Protocol; Work Less, Do More; Effective Business and Nonfiction Writing; When Friendship Hurts; Productive Relationships; Grow Global; Creative Time Management for the New Millennium; and Who's That Sitting at My Desk. Beginning in her twenties, Dr. Jan Yager has delivered keynote addresses, and conducted workshops and all-day seminars, throughout the U.S. and internationally, before a variety of public, government, association, and corporate audiences. For more information, go to: www.drjanyager.com`,
-    count: 60,
+    count: 160,
     price: 2500,
     category: "Books",
     sales: 55,
@@ -1030,7 +1030,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Jan Yager" },
       { key: "Format", value: "Hardcover" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Sunrise Book store" },
     ],
@@ -1042,15 +1042,15 @@ The superfast chip powers advanced features like computational photography, flui
     name: "The Fast Track Guide to Speaking in Public",
     description: `This practical and well-written guide to the all-important fundmantal skills of being able to speak in public covers such basics as the style and structure of typical speeches including delivering a keynote, participating in a panel, conducting a workshop, and more. In addition to Yager’s own extensive speaking experiences, the author includes excerpts from interviews or communications with other speakersincluding one speaker who did let his stuttering stop him from speaking. There are is a chapter on protocol issues that speakers have to be concerned about as well as 12 of the most dreaded situations you might encounter as a speaker, and how to handle each one, from being booed or not wanting to speak to forgetting what you had to say or what to do when your computer (Power Point) fails to work. There are also chapters on the special concerns of authors who speak, tips for handling a TV interview, the mechanics of speaking, and 12 secrets of successful speakers. Includes references, resources, and an Appendix with sample pre-speaking surveys, a post-speaking evaluation; indexed.
     Dr. Jan Yager is a professional international speaker, workshop leader, coach, consultant, and award-winning author whose more than 30 books have been translated into 32 languages. Her titles include Business Protocol; Work Less, Do More; Effective Business and Nonfiction Writing; When Friendship Hurts; Productive Relationships; Grow Global; Creative Time Management for the New Millennium; and Who's That Sitting at My Desk. Beginning in her twenties, Dr. Jan Yager has delivered keynote addresses, and conducted workshops and all-day seminars, throughout the U.S. and internationally, before a variety of public, government, association, and corporate audiences. For more information, go to: www.drjanyager.com`,
-    count: 60,
+    count: 160,
     price: 500,
     category: "Books",
-    sales: 55,
+    sales: 15,
     images: [{ path: "/images/products/books/author3.jpg" }],
     attrs: [
       { key: "Author", value: "Jan Yager" },
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Sunrise Book store" },
     ],
@@ -1065,7 +1065,7 @@ The superfast chip powers advanced features like computational photography, flui
     Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!\n\n
     
     Having become classics of our time, the Harry Potter eBooks never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new readers.\n`,
-    count: 60,
+    count: 160,
     price: 500,
     category: "Books",
     sales: 55,
@@ -1073,7 +1073,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "J.K. Rowling" },
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Browsers' Lounge" },
     ],
@@ -1088,15 +1088,15 @@ The superfast chip powers advanced features like computational photography, flui
     Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!\n\n
     
     Having become classics of our time, the Harry Potter eBooks never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new readers.\n`,
-    count: 60,
+    count: 160,
     price: 1700,
     category: "Books",
-    sales: 55,
+    sales: 25,
     images: [{ path: "/images/products/books/author4.jpg" }],
     attrs: [
       { key: "Author", value: "J.K. Rowling" },
       { key: "Format", value: "Used" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
@@ -1111,7 +1111,7 @@ The superfast chip powers advanced features like computational photography, flui
     Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!\n\n
     
     Having become classics of our time, the Harry Potter eBooks never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new readers.\n`,
-    count: 60,
+    count: 160,
     price: 350,
     category: "Books",
     sales: 55,
@@ -1119,7 +1119,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "J.K. Rowling" },
       { key: "Format", value: "Audiobook" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Browsers' Lounge" },
     ],
@@ -1134,15 +1134,15 @@ The superfast chip powers advanced features like computational photography, flui
     Harry Potter's summer has included the worst birthday ever, doomy warnings from a house-elf called Dobby, and rescue from the Dursleys by his friend Ron Weasley in a magical flying car! Back at Hogwarts School of Witchcraft and Wizardry for his second year, Harry hears strange whispers echo through empty corridors - and then the attacks start. Students are found as though turned to stone... Dobby's sinister predictions seem to be coming true.\n\n
     
     Having become classics of our time, the Harry Potter eBooks never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new readers.\n`,
-    count: 60,
+    count: 160,
     price: 250,
     category: "Books",
-    sales: 55,
+    sales: 45,
     images: [{ path: "/images/products/books/author5.jpg" }],
     attrs: [
       { key: "Author", value: "J.K. Rowling" },
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
@@ -1165,7 +1165,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "J.K. Rowling" },
       { key: "Format", value: "Audiobook" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Browsers' Lounge" },
     ],
@@ -1188,11 +1188,11 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "J.K. Rowling" },
       { key: "Format", value: "Hardcover" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1211,11 +1211,11 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "J.K. Rowling" },
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "uRead-Store" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1234,7 +1234,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Browsers' Lounge" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1253,7 +1253,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Amazing_Buy" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1273,7 +1273,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "uRead-Store" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1296,7 +1296,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "uRead-Store" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1319,7 +1319,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Amazing_Buy" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1342,7 +1342,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Repro Books-On-Demand" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1365,7 +1365,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Amazing_Buy" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1390,7 +1390,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Amazing_Buy" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1415,7 +1415,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Repro Books-On-Demand" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1436,7 +1436,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1461,7 +1461,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Repro Books-On-Demand" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1486,7 +1486,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1505,7 +1505,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1519,11 +1519,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Marathi1.jpg" }],
     attrs: [
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "Marathi" },
+      { key: "English and Indian Languages", value: "Marathi" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1537,11 +1537,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Marathi2.jpg" }],
     attrs: [
       { key: "Format", value: "Audiobook" },
-      { key: "English & Indian Languages", value: "Marathi" },
+      { key: "English and Indian Languages", value: "Marathi" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Inetrade India" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1563,7 +1563,7 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Marathi3.jpg" }],
     attrs: [
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "Marathi" },
+      { key: "English and Indian Languages", value: "Marathi" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Inetrade India" },
     ],
@@ -1589,11 +1589,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Marathi3.jpg" }],
     attrs: [
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "Marathi" },
+      { key: "English and Indian Languages", value: "Marathi" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 3,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1607,11 +1607,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Tamil1.jpg" }],
     attrs: [
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "Tamil" },
+      { key: "English and Indian Languages", value: "Tamil" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Inetrade India" },
     ],
-    rating: 5,
+    rating: 3,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1625,11 +1625,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Tamil1.jpg" }],
     attrs: [
       { key: "Format", value: "Audiobook" },
-      { key: "English & Indian Languages", value: "Tamil" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Tamil" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 3,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1644,11 +1644,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Tamil2.jpg" }],
     attrs: [
       { key: "Format", value: "Audiobook" },
-      { key: "English & Indian Languages", value: "Tamil" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Tamil" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Inetrade India" },
     ],
-    rating: 5,
+    rating: 3,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1663,11 +1663,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Tamil2.jpg" }],
     attrs: [
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "Tamil" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Tamil" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Inetrade India" },
     ],
-    rating: 5,
+    rating: 3,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1681,11 +1681,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Tamil3.jpg" }],
     attrs: [
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "Tamil" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Tamil" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Mumbai gift corner" },
     ],
-    rating: 5,
+    rating: 3,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1699,11 +1699,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Tamil3.jpg" }],
     attrs: [
       { key: "Format", value: "Audiobook" },
-      { key: "English & Indian Languages", value: "Tamil" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Tamil" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 3,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1719,11 +1719,11 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Tamil4.jpg" }],
     attrs: [
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "Tamil" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Tamil" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 3,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1737,7 +1737,7 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Telugu1.jpg" }],
     attrs: [
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "Telugu" },
+      { key: "English and Indian Languages", value: "Telugu" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Mumbai gift corner" },
     ],
@@ -1755,8 +1755,8 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Telugu1.jpg" }],
     attrs: [
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "Telugu" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Telugu" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Mumbai gift corner" },
     ],
     rating: 5,
@@ -1773,8 +1773,8 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Telugu1.jpg" }],
     attrs: [
       { key: "Format", value: "Hardcover" },
-      { key: "English & Indian Languages", value: "Telugu" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Telugu" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Mumbai gift corner" },
     ],
     rating: 5,
@@ -1791,8 +1791,8 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Telugu2.jpg" }],
     attrs: [
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "Telugu" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Telugu" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Inetrade India" },
     ],
     rating: 5,
@@ -1809,8 +1809,8 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Telugu3.jpg" }],
     attrs: [
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "Telugu" },
-      { key: "Item Condition", value: "New" },
+      { key: "English and Indian Languages", value: "Telugu" },
+      { key: "Item Condition", value: "Used" },
       { key: "Seller", value: "Sunrise Book store" },
     ],
     rating: 5,
@@ -1827,7 +1827,7 @@ The superfast chip powers advanced features like computational photography, flui
     images: [{ path: "/images/products/books/Telugu3.jpg" }],
     attrs: [
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "Telugu" },
+      { key: "English and Indian Languages", value: "Telugu" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Sunrise Book store" },
     ],
@@ -1846,7 +1846,7 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Darko Macan" },
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
@@ -1865,11 +1865,11 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Darko Macan" },
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1884,11 +1884,11 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Darko Macan" },
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1903,11 +1903,11 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Darko Macan" },
       { key: "Format", value: "Hardcover" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1922,11 +1922,11 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Darko Macan" },
       { key: "Format", value: "Kindle Edition" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1941,11 +1941,11 @@ The superfast chip powers advanced features like computational photography, flui
     attrs: [
       { key: "Author", value: "Darko Macan" },
       { key: "Format", value: "Paperback" },
-      { key: "English & Indian Languages", value: "English" },
+      { key: "English and Indian Languages", value: "English" },
       { key: "Item Condition", value: "New" },
       { key: "Seller", value: "Trans Infopreneur Inc" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1972,7 +1972,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "RC. ROYAL CLASS" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -1999,7 +1999,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "RC. ROYAL CLASS" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2025,9 +2025,9 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Satin" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2055,7 +2055,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "RC. ROYAL CLASS" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2084,7 +2084,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "Labnoft" },
       { key: "Seller", value: "RetailEZ Pvt Ltd" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2110,9 +2110,9 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "Brand Conquer" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2139,7 +2139,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "CREATURE" },
       { key: "Seller", value: "VRP Telematics" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2165,7 +2165,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "RC. ROYAL CLASS" },
       { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2191,7 +2191,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "RC. ROYAL CLASS" },
       { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2219,7 +2219,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "Brand Conquer" },
       { key: "Seller", value: "RetailEZ Pvt Ltd" },
     ],
-    rating: 5,
+    rating: 2,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2566,7 +2566,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "CREATURE" },
       { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
-    rating: 5,
+    rating: 1,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2591,9 +2591,9 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "CREATURE" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
-    rating: 5,
+    rating: 1,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2620,7 +2620,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "Labnoft" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 1,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2645,9 +2645,9 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Acrylic" },
       { key: "Pattern", value: "Geometric" },
       { key: "Brands", value: "Labnoft" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
-    rating: 5,
+    rating: 1,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2672,9 +2672,9 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Geometric" },
       { key: "Brands", value: "Labnoft" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
-    rating: 5,
+    rating: 1,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2701,7 +2701,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "Labnoft" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 1,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2726,9 +2726,9 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Wool" },
       { key: "Pattern", value: "Chevron" },
       { key: "Brands", value: "Labnoft" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
-    rating: 5,
+    rating: 1,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2756,7 +2756,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Brands", value: "Labnoft" },
       { key: "Seller", value: "Cocoblu Retail" },
     ],
-    rating: 5,
+    rating: 1,
     reviewsNumber: 9,
     reviews: [],
   },
@@ -2781,7 +2781,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Chevron" },
       { key: "Brands", value: "Labnoft" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -2808,7 +2808,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Plaid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "SIRIL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -2836,7 +2836,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Plaid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "SIRIL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -2863,7 +2863,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Acrylic" },
       { key: "Pattern", value: "Plaid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -2890,7 +2890,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Wool" },
       { key: "Pattern", value: "Plaid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -2915,7 +2915,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Polka dots" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -2943,7 +2943,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Polka dots" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -2971,7 +2971,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Polka dots" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -2998,7 +2998,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Polka dots" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3028,7 +3028,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Polka dots" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3056,7 +3056,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Polka dots" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "SIRIL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3084,7 +3084,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3112,7 +3112,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "SIRIL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3139,7 +3139,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "SIRIL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3167,7 +3167,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "SIRIL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3195,7 +3195,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "SIRIL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3223,7 +3223,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3251,7 +3251,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3278,7 +3278,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3307,7 +3307,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3336,7 +3336,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3364,7 +3364,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3392,7 +3392,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3420,7 +3420,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3448,7 +3448,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3476,7 +3476,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3504,7 +3504,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3532,7 +3532,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Leather" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3560,7 +3560,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Leather" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3588,7 +3588,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Fleece" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3616,7 +3616,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Fleece" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3644,7 +3644,7 @@ The superfast chip powers advanced features like computational photography, flui
       { key: "Material", value: "Fleece" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "RC. ROYAL CLASS" },
-      { key: "Seller", value: "Janasya" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
     rating: 5,
     reviewsNumber: 9,
@@ -3776,7 +3776,7 @@ Target Gender: Unisex
     reviews: [],
     attrs: [
       { key: "Brands", value: "Nivea" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "BGorgeous" },
     ],
   },
   {
@@ -3802,7 +3802,7 @@ Target Gender: Unisex
     reviews: [],
     attrs: [
       { key: "Brands", value: "Nivea" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "BGorgeous" },
     ],
   },
   {
@@ -3850,7 +3850,7 @@ Target Gender: Unisex
     reviews: [],
     attrs: [
       { key: "Brands", value: "Nivea" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -3874,7 +3874,7 @@ Target Gender: Unisex
     reviews: [],
     attrs: [
       { key: "Brands", value: "Nivea" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "BGorgeous" },
     ],
   },
   {
@@ -3900,7 +3900,7 @@ Target Gender: Unisex
     reviews: [],
     attrs: [
       { key: "Brands", value: "Nivea" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -3926,7 +3926,7 @@ Target Gender: Unisex
     reviews: [],
     attrs: [
       { key: "Brands", value: "Maybelline" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -3952,7 +3952,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Maybelline" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -3978,7 +3978,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Maybelline" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
   },
   {
@@ -4004,7 +4004,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Maybelline" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
   },
   {
@@ -4030,7 +4030,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Maybelline" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
   },
   {
@@ -4056,7 +4056,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Maybelline" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "KiranaMarket" },
     ],
   },
   {
@@ -4082,7 +4082,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Maybelline" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SHOPPERS STOP COM" },
     ],
   },
   {
@@ -4108,7 +4108,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Maybelline" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SHOPPERS STOP COM" },
     ],
   },
   {
@@ -4134,7 +4134,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Garnier" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SHOPPERS STOP COM" },
     ],
   },
   {
@@ -4160,7 +4160,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Garnier" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SHOPPERS STOP COM" },
     ],
   },
   {
@@ -4186,7 +4186,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Garnier" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SUPER COSMETICS STORE" },
     ],
   },
   {
@@ -4212,7 +4212,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Garnier" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4238,7 +4238,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Garnier" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4264,7 +4264,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Biotique" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4290,7 +4290,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Biotique" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4316,7 +4316,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Biotique" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4342,7 +4342,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Biotique" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "BGorgeous" },
     ],
   },
   {
@@ -4368,7 +4368,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Biotique" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "BGorgeous" },
     ],
   },
   {
@@ -4390,7 +4390,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Biotique" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "BGorgeous" },
     ],
   },
   {
@@ -4418,7 +4418,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Bella Vita Luxury" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "BGorgeous" },
     ],
   },
   {
@@ -4444,7 +4444,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Bella Vita Luxury" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "NumBrave" },
     ],
   },
   {
@@ -4470,7 +4470,7 @@ AVAILABLE IN 6 SHADES – You can find your perfect match as the FIT ME compact 
     reviews: [],
     attrs: [
       { key: "Brands", value: "Bella Vita Luxury" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "NumBrave" },
     ],
   },
   {
@@ -4496,7 +4496,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "Bella Vita Luxury" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "NumBrave" },
     ],
   },
   {
@@ -4522,7 +4522,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "Bella Vita Luxury" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "NumBrave" },
     ],
   },
   {
@@ -4548,7 +4548,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "Bella Vita Luxury" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SUPER COSMETICS STORE" },
     ],
   },
   {
@@ -4573,7 +4573,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "Bella Vita Luxury" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SUPER COSMETICS STORE" },
     ],
   },
   {
@@ -4599,7 +4599,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "L'Oreal Paris" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SUPER COSMETICS STORE" },
     ],
   },
   {
@@ -4625,7 +4625,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "L'Oreal Paris" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SUPER COSMETICS STORE" },
     ],
   },
   {
@@ -4651,7 +4651,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "L'Oreal Paris" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "SUPER COSMETICS STORE" },
     ],
   },
   {
@@ -4677,7 +4677,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "L'Oreal Paris" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4703,7 +4703,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "L'Oreal Paris" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4729,7 +4729,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "L'Oreal Paris" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4755,7 +4755,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     reviews: [],
     attrs: [
       { key: "Brands", value: "L'Oreal Paris" },
-      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
+      { key: "Seller", value: "Just Peachy!" },
     ],
   },
   {
@@ -4842,7 +4842,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Geometric" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -4900,7 +4900,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Crepe" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -4929,7 +4929,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Crepe" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -4958,7 +4958,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Crepe" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -4987,7 +4987,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Polyester" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5016,7 +5016,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Polyester" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5045,7 +5045,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5074,7 +5074,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5103,7 +5103,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5132,7 +5132,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Janasya" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5161,7 +5161,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Polyester" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5190,7 +5190,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Polyester" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5219,7 +5219,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Polyester" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5248,7 +5248,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Polyester" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5277,7 +5277,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Polyester" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5306,7 +5306,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5335,7 +5335,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5365,7 +5365,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5395,7 +5395,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -5425,7 +5425,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5454,7 +5454,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5483,7 +5483,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "RK World Infocom Pvt Ltd" },
     ],
   },
   {
@@ -5512,7 +5512,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Rayon" },
       { key: "Pattern", value: "Floral" },
       { key: "Brands", value: "Harpa" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -5539,7 +5539,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Yashika" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5566,7 +5566,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Yashika" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5593,7 +5593,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Yashika" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5622,7 +5622,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Yashika" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5651,7 +5651,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Yashika" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5680,7 +5680,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Yashika" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5709,7 +5709,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Yashika" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5738,7 +5738,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Solid" },
       { key: "Brands", value: "Yashika" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -5767,7 +5767,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5796,7 +5796,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5825,7 +5825,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5854,7 +5854,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5883,7 +5883,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Chiffon" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -5912,7 +5912,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Brasso" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5941,7 +5941,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Brasso" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "HOUSE OF COMFORT" },
     ],
   },
   {
@@ -5970,7 +5970,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Brasso" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -5999,7 +5999,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Brasso" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -6028,7 +6028,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "VRP Telematics" },
     ],
   },
   {
@@ -6057,7 +6057,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6086,7 +6086,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Silk" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -6116,7 +6116,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Georgette" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6145,7 +6145,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Georgette" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6174,7 +6174,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Georgette" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6203,7 +6203,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Georgette" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6231,7 +6231,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Georgette" },
       { key: "Pattern", value: "Animal print" },
       { key: "Brands", value: "SIRIL" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6259,7 +6259,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -6287,7 +6287,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6315,7 +6315,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6344,7 +6344,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6373,7 +6373,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6402,7 +6402,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -6431,7 +6431,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6460,7 +6460,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6489,7 +6489,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Letter print" },
       { key: "Brands", value: "KSHS" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "KUKU KI DUKAN" },
     ],
   },
   {
@@ -6518,7 +6518,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Cartoon" },
       { key: "Brands", value: "BALENZIA" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -6691,7 +6691,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Cartoon" },
       { key: "Brands", value: "BALENZIA" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -6749,7 +6749,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Cartoon" },
       { key: "Brands", value: "BALENZIA" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -6777,7 +6777,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { key: "color", value: "multi-color" },
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
   },
   {
@@ -6798,14 +6798,14 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/womenClothing/str2_2.jpg" },
       { path: "/images/products/womenClothing/str2_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
       { key: "color", value: "pink" },
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
   },
   {
@@ -6826,14 +6826,14 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/womenClothing/str3_2.jpg" },
       { path: "/images/products/womenClothing/str3_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
       { key: "color", value: "beige" },
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
   },
   {
@@ -6854,14 +6854,14 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/womenClothing/str4_2.jpg" },
       { path: "/images/products/womenClothing/str4_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
       { key: "color", value: "beige" },
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "POSEIDON BHL" },
     ],
   },
   {
@@ -6881,14 +6881,14 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/womenClothing/str5_2.jpg" },
       { path: "/images/products/womenClothing/str5_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
       { key: "color", value: "black" },
       { key: "Material", value: "Cotton" },
       { key: "Pattern", value: "Striped" },
-      { key: "Seller", value: "Cocoblu Retail" },
+      { key: "Seller", value: "SIRIL" },
     ],
   },
   {
@@ -6908,7 +6908,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/furniture/str1_2.jpg" },
       { path: "/images/products/furniture/str1_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
@@ -6935,7 +6935,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/furniture/str2_2.jpg" },
       { path: "/images/products/furniture/str2_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
@@ -6962,7 +6962,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/furniture/str3_2.jpg" },
       { path: "/images/products/furniture/str3_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
@@ -6989,7 +6989,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/furniture/str4_2.jpg" },
       { path: "/images/products/furniture/str4_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
@@ -7017,7 +7017,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/furniture/str5_2.jpg" },
       { path: "/images/products/furniture/str5_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
@@ -7044,7 +7044,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/furniture/str6_2.jpg" },
       { path: "/images/products/furniture/str6_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
@@ -7072,7 +7072,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/furniture/str7_2.jpg" },
       { path: "/images/products/furniture/str7_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
@@ -7100,7 +7100,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
       { path: "/images/products/furniture/str8_2.jpg" },
       { path: "/images/products/furniture/str8_3.jpg" },
     ],
-    rating: 5,
+    rating: 4,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
@@ -7639,10 +7639,10 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     The combined back and seat durability test have been conducted for more than 25000 cycles.\n
     DIY(Do-It-Yourself) installation: The Ease Sofa can be self set-up with utmost ease.\n
               `,
-    count: 89,
+    count: 99,
     price: 12662,
     category: "Furniture",
-    sales: 76,
+    sales: 56,
     images: [
       { path: "/images/products/furniture/duro6_1.jpg" },
       { path: "/images/products/furniture/duro6_2.jpg" },
@@ -7726,7 +7726,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     The combined back and seat durability test have been conducted for more than 25000 cycles.\n
     DIY(Do-It-Yourself) installation: The Ease Sofa can be self set-up with utmost ease.\n
               `,
-    count: 89,
+    count: 156,
     price: 11546,
     category: "Furniture",
     sales: 76,
@@ -7755,7 +7755,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     The combined back and seat durability test have been conducted for more than 25000 cycles.\n
     DIY(Do-It-Yourself) installation: The Ease Sofa can be self set-up with utmost ease.\n
               `,
-    count: 89,
+    count: 156,
     price: 11546,
     category: "Furniture",
     sales: 76,
@@ -7784,7 +7784,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     The combined back and seat durability test have been conducted for more than 25000 cycles.\n
     DIY(Do-It-Yourself) installation: The Ease Sofa can be self set-up with utmost ease.\n
               `,
-    count: 89,
+    count: 156,
     price: 11546,
     category: "Furniture",
     sales: 76,
@@ -7813,7 +7813,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     The combined back and seat durability test have been conducted for more than 25000 cycles.\n
     DIY(Do-It-Yourself) installation: The Ease Sofa can be self set-up with utmost ease.\n
               `,
-    count: 89,
+    count: 156,
     price: 11546,
     category: "Furniture",
     sales: 76,
@@ -7841,7 +7841,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     The back seat is designed to give good neck and lumbar support.\n
     Polyester and Polypropylene mix fabric, which has successfully passed BS EN ISO 12947; 105; 12945, 13937 standards for abrasion resistance, colour fading prevention, pilling resistance; resistance to tear respectively.\n
               `,
-    count: 89,
+    count: 156,
     price: 16449,
     category: "Furniture",
     sales: 76,
@@ -7870,7 +7870,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     𝗦𝗽𝗮𝗰𝗲 𝗦𝗮𝘃𝗲𝗿: Plantex bathroom steel shelf/rack/holder is available in size - (L) 27.5 X (W) 10 X (H) 11.5 cm, Easy to clean, its smooth surface can be easily cleaned with water or a dry cloth.Packaging contains 1 piece of wire shelf with hook (as shown in image).\n
     𝗣𝗹𝗮𝗻𝘁𝗲𝘅 is a brand that provides widest range of home improvement products. Our products are designed to ensure that you have the best experience possible when it comes to upgrading your home. Plantex strives to provide you with high-quality products that are easy on the wallet, and we are committed to helping customers find the perfect fit for their needs.\n
               `,
-    count: 89,
+    count: 156,
     price: 379,
     category: "Furniture",
     sales: 76,
@@ -7898,7 +7898,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     𝐌𝐮𝐥𝐭𝐢𝐩𝐮𝐫𝐩𝐨𝐬𝐞 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬: This storage organizer can be used in kitchen to store different kinds of sauces, oils bottles, jams & grain jars. Perfect multipurpose storage shelf for bathroom, kitchen and bedroom.\n
     𝐃𝐫𝐢𝐥𝐥-𝐟𝐫𝐞𝐞 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧: Packaging of this bathroom shelf includes magic stickers. These shelves can be by using the drill-free adhesive stickers, these powerful transparent adhesive hooks, that sticks to the surface for a long time, are more durable and stronger. Package contains 2 - Pieces of GI Metal corner/shelf with adhesive stickers inside. Packaging dimension is 27 cm (L) x 27 cm (W) x 6 cm (H).\n
               `,
-    count: 89,
+    count: 156,
     price: 615,
     category: "Furniture",
     sales: 76,
@@ -7928,7 +7928,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     𝐄𝐚𝐬𝐲 𝐭𝐨 𝐂𝐥𝐞𝐚𝐧: Keeping your towel rack spotless is a breeze. Simply wipe it down with a wet cotton cloth, and it will look as good as new. Say goodbye to tedious cleaning routines.\n
     Transform your bathroom into an organized and stylish space with the Plantex High-Grade Stainless-Steel Folding Towel Rack. Get yours today and experience the convenience of a clutter-free bathroom!\n
               `,
-    count: 89,
+    count: 156,
     price: 1275,
     category: "Furniture",
     sales: 76,
@@ -7960,7 +7960,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     count: 89,
     price: 379,
     category: "Furniture",
-    sales: 76,
+    sales: 34,
     images: [
       { path: "/images/products/furniture/plan4_1.jpg" },
       { path: "/images/products/furniture/plan4_2.jpg" },
@@ -7989,7 +7989,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     count: 89,
     price: 327,
     category: "Furniture",
-    sales: 76,
+    sales: 79,
     images: [
       { path: "/images/products/furniture/plan5_1.jpg" },
       { path: "/images/products/furniture/plan5_2.jpg" },
@@ -8017,7 +8017,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     count: 89,
     price: 849,
     category: "Furniture",
-    sales: 76,
+    sales: 45,
     images: [
       { path: "/images/products/furniture/plan6_1.jpg" },
       { path: "/images/products/furniture/plan6_2.jpg" },
@@ -8046,7 +8046,7 @@ Imported oils: All our perfumes are made with imported perfume oils from countri
     count: 89,
     price: 759,
     category: "Furniture",
-    sales: 76,
+    sales: 34,
     images: [
       { path: "/images/products/furniture/plan7_1.jpg" },
       { path: "/images/products/furniture/plan7_2.jpg" },

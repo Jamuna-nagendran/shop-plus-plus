@@ -13,12 +13,7 @@ const OrdersPageComponent = ({ getOrders }) => {
   useEffect(() => {
     getOrders()
       .then((orders) => setOrders(orders))
-      .catch(
-        (er) => dispatch(logout())
-        // console.log(
-        //   er.response.data.message ? er.response.data.message : er.response.data
-        // )
-      );
+      .catch((er) => dispatch(logout()));
   }, []);
 
   return (

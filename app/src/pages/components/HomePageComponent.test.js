@@ -9,10 +9,9 @@ let getBestsellers = () => {
     resolve([
       {
         _id: "6315f5f6b4ab1404dc103427",
-        name: "Product1 Lenovo Comp1 Name Lorem ipsum dolor sit amet",
-        description:
-          "Product Description Lorem ipsum dolor sit amet con…ccusantium nihil exercitationem autem porro esse.",
-        category: "Computers/Laptops/Lenovo",
+        name: "Apple",
+        description: "Product Description",
+        category: "Electronics",
         images: [{ path: "path" }],
       },
     ]);
@@ -24,7 +23,7 @@ let getBestsellersError = () => {
     reject({
       response: {
         data: {
-          message: "Producta is not defined",
+          message: "Product is not defined",
         },
       },
     });
@@ -40,9 +39,8 @@ test("if category is seen", async () => {
       />
     </Router>
   );
-  await waitFor(() => screen.getByText(/Computers\/Laptops\/Lenovo/i));
-  expect(screen.getByText(/Computers\/Laptops\/Lenovo/i)).toBeInTheDocument();
-  //   expect(screen.getByRole("heading", { name: /Computers\/Laptops\/Lenovo/i }));
+  await waitFor(() => screen.getByText(/Electronics/i));
+  expect(screen.getByText(/Electronics/i)).toBeInTheDocument();
 });
 
 test("if error is seen", async () => {
@@ -55,6 +53,6 @@ test("if error is seen", async () => {
     </Router>
   );
 
-  await waitFor(() => screen.getByText(/Producta is not defined/i));
-  expect(screen.getByText(/Producta is not defined/i)).toBeInTheDocument();
+  await waitFor(() => screen.getByText(/Product is not defined/i));
+  expect(screen.getByText(/Product is not defined/i)).toBeInTheDocument();
 });

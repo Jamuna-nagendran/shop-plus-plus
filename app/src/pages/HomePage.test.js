@@ -23,19 +23,25 @@ test("if product name is seen", async () => {
     data: [
       {
         _id: "6315f5f6b4ab1404dc103427",
-        name: "Product1 Lenovo Comp1 Name Lorem ipsum dolor sit amet",
-        description:
-          "Product test Description Lorem ipsum dolor sit amet con…ccusantium nihil exercitationem autem porro esse.",
-        category: "Computers/Laptops/Lenovo",
+        name: "How to Finish Everything You Start",
+        description: "Habits to Transform Your Life",
+        category: "Books",
         images: [{ path: "path" }],
       },
     ],
   });
+
   render(
     <Router>
       <HomePage />
     </Router>
   );
-  await waitFor(() => screen.getByText(/Product test Description/i));
-  expect(screen.getByText(/Product test Description/i)).toBeInTheDocument();
+
+  await waitFor(() => screen.getByText(/Bestseller in Books Category/i));
+
+  console.log(document.body.innerHTML);
+
+  expect(
+    screen.getByText(/How to Finish Everything You Start/i)
+  ).toBeInTheDocument();
 });

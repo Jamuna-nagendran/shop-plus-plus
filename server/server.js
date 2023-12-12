@@ -62,18 +62,16 @@ io.on("connection", (socket) => {
   socket.on("admin closes chat", (socketId) => {
     socket.broadcast.to(socketId).emit("admin closed chat", "");
     let c = io.sockets.sockets.get(socketId);
-    c.disconnect(); // reason:  server namespace disconnect
+    c.disconnect();
   });
 
   socket.on("disconnect", (reason) => {
-    // admin disconnected
     const removeIndex = admins.findIndex((item) => item.id === socket.id);
     if (removeIndex !== -1) {
       admins.splice(removeIndex, 1);
     }
     activeChats = activeChats.filter((item) => item.adminId !== socket.id);
 
-    // client disconnected
     const removeIndexClient = activeChats.findIndex(
       (item) => item.clientId === socket.id
     );
@@ -89,7 +87,6 @@ io.on("connection", (socket) => {
 
 const apiRoutes = require("./routes/apiRoutes");
 
-// mongodb connection
 const connectDB = require("./config/db");
 connectDB();
 
@@ -97,9 +94,9 @@ app.use("/api", apiRoutes);
 
 const path = require("path");
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../frontend/build")));
+  app.use(express.static(path.join(__dirname, "../app/build")));
   app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname, "../frontend", "build", "index.html"))
+    res.sendFile(path.resolve(__dirname, "../app", "build", "index.html"))
   );
 } else {
   app.get("/", (req, res) => {

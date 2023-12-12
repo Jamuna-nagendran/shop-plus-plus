@@ -10,6 +10,7 @@ import {
 } from "react-bootstrap";
 import { Rating } from "react-simple-star-rating";
 import AddedToCartMessageComponent from "../../components/AddedToCartMessageComponent";
+import formatPrice from "../../utils/priceFormatter";
 
 import ImageZoom from "js-image-zoom";
 import { useEffect, useState, useRef } from "react";
@@ -92,7 +93,7 @@ const ProductDetailsPageComponent = ({
       writeReviewApiRequest(product._id, formInputs)
         .then((data) => {
           if (data === "review created") {
-            setProductReviewed("You successfuly reviewed the page!");
+            setProductReviewed("You successfully reviewed the page!");
           }
         })
         .catch((er) =>
@@ -104,6 +105,8 @@ const ProductDetailsPageComponent = ({
         );
     }
   };
+
+  const isAdmin = userInfo && userInfo.isAdmin;
 
   return (
     <>
@@ -156,45 +159,51 @@ const ProductDetailsPageComponent = ({
                       </ListGroup.Item>
                       <ListGroup.Item>
                         Price{" "}
-                        <span className="fw-bold">&#8377;{product.price}</span>
+                        <span className="fw-bold">
+                          {formatPrice(product.price)}
+                        </span>
                       </ListGroup.Item>
                       <ListGroup.Item>
                         {createDescriptionParagraphs(product.description)}
                       </ListGroup.Item>
                     </ListGroup>
                   </Col>
-                  <Col md={4}>
-                    <ListGroup>
-                      <ListGroup.Item>
-                        Status:{" "}
-                        {product.count > 0 ? "in stock" : "out of stock"}
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        Price:{" "}
-                        <span className="fw-bold">&#8377;{product.price}</span>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        Quantity:
-                        <Form.Select
-                          value={quantity}
-                          onChange={(e) => setQuantity(e.target.value)}
-                          size="lg"
-                          aria-label="Default select example"
-                        >
-                          {[...Array(product.count).keys()].map((x) => (
-                            <option key={x + 1} value={x + 1}>
-                              {x + 1}
-                            </option>
-                          ))}
-                        </Form.Select>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <Button onClick={addToCartHandler} variant="danger">
-                          Add to cart
-                        </Button>
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Col>
+                  {isAdmin ? null : (
+                    <Col md={4}>
+                      <ListGroup>
+                        <ListGroup.Item>
+                          Status:{" "}
+                          {product.count > 0 ? "in stock" : "out of stock"}
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          Price:{" "}
+                          <span className="fw-bold">
+                            {formatPrice(product.price)}
+                          </span>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          Quantity:
+                          <Form.Select
+                            value={quantity}
+                            onChange={(e) => setQuantity(e.target.value)}
+                            size="lg"
+                            aria-label="Default select example"
+                          >
+                            {[...Array(product.count).keys()].map((x) => (
+                              <option key={x + 1} value={x + 1}>
+                                {x + 1}
+                              </option>
+                            ))}
+                          </Form.Select>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          <Button onClick={addToCartHandler} variant="danger">
+                            Add to cart
+                          </Button>
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </Col>
+                  )}
                 </Row>
                 <Row>
                   <Col className="mt-5">
@@ -223,43 +232,45 @@ const ProductDetailsPageComponent = ({
                   <Alert variant="danger">Login first to write a review</Alert>
                 )}
 
-                <Form onSubmit={sendReviewHandler}>
-                  <Form.Group
-                    className="mb-3"
-                    controlId="exampleForm.ControlInput1"
-                  >
-                    <Form.Label>Write a review</Form.Label>
-                    <Form.Control
-                      name="comment"
+                {!isAdmin && (
+                  <Form onSubmit={sendReviewHandler}>
+                    <Form.Group
+                      className="mb-3"
+                      controlId="exampleForm.ControlInput1"
+                    >
+                      <Form.Label>Write a review</Form.Label>
+                      <Form.Control
+                        name="comment"
+                        required
+                        as="textarea"
+                        disabled={!userInfo.name}
+                        rows={3}
+                      />
+                    </Form.Group>
+                    <Form.Select
+                      name="rating"
                       required
-                      as="textarea"
                       disabled={!userInfo.name}
-                      rows={3}
-                    />
-                  </Form.Group>
-                  <Form.Select
-                    name="rating"
-                    required
-                    disabled={!userInfo.name}
-                    aria-label="Default select example"
-                  >
-                    <option value="">Your rating</option>
-                    <option value="5">5 (very good)</option>
-                    <option value="4">4 (good)</option>
-                    <option value="3">3 (average)</option>
-                    <option value="2">2 (bad)</option>
-                    <option value="1">1 (awful)</option>
-                  </Form.Select>
-                  <Button
-                    disabled={!userInfo.name}
-                    type="submit"
-                    className="mb-3 mt-3"
-                    variant="primary"
-                  >
-                    Submit
-                  </Button>{" "}
-                  {productReviewed}
-                </Form>
+                      aria-label="Default select example"
+                    >
+                      <option value="">Your rating</option>
+                      <option value="5">5 (very good)</option>
+                      <option value="4">4 (good)</option>
+                      <option value="3">3 (average)</option>
+                      <option value="2">2 (bad)</option>
+                      <option value="1">1 (awful)</option>
+                    </Form.Select>
+                    <Button
+                      disabled={!userInfo.name}
+                      type="submit"
+                      className="mb-3 mt-3"
+                      variant="primary"
+                    >
+                      Submit
+                    </Button>{" "}
+                    {productReviewed}
+                  </Form>
+                )}
               </Col>
             </>
           )}
