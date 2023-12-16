@@ -53,7 +53,7 @@ npm install
 
 > **Note:** Make sure you have your own credentials
 
-- In `backend/.env` file for the `MONGO_URI` variable.
+- In `server/.env` file for the `MONGO_URI` variable.
 - In `app/src/pages/user/UserOrderDetailsPage.js` for PayPal `client-id`.
 
 > This ensures that you use your own credentials for MongoDB and PayPal integration.
