@@ -1,21 +1,22 @@
 require("dotenv").config();
-var helmet = require("helmet");
+const helmet = require("helmet");
 const { createServer } = require("http");
 const { Server } = require("socket.io");
 const express = require("express");
 const fileUpload = require("express-fileupload");
 const cookieParser = require("cookie-parser");
+
 const app = express();
 
-app.use(
-  helmet({
-    contentSecurityPolicy: false,
-    crossOriginEmbedderPolicy: false,
-  })
-);
+app.use(helmet());
 
 const httpServer = createServer(app);
-global.io = new Server(httpServer);
+global.io = new Server(httpServer, {
+  cors: {
+    origin: "http://localhost:3000", // Replace with the actual origin of your frontend
+    methods: ["GET", "POST"],
+  },
+});
 
 app.use(express.json());
 app.use(cookieParser());
@@ -23,6 +24,7 @@ app.use(fileUpload());
 
 const admins = [];
 let activeChats = [];
+
 function get_random(array) {
   return array[Math.floor(Math.random() * array.length)];
 }
@@ -62,7 +64,7 @@ io.on("connection", (socket) => {
   socket.on("admin closes chat", (socketId) => {
     socket.broadcast.to(socketId).emit("admin closed chat", "");
     let c = io.sockets.sockets.get(socketId);
-    c.disconnect();
+    c.disconnect(); // reason:  server namespace disconnect
   });
 
   socket.on("disconnect", (reason) => {
@@ -87,22 +89,14 @@ io.on("connection", (socket) => {
 
 const apiRoutes = require("./routes/apiRoutes");
 
+app.get("/", async (req, res, next) => {
+  res.json({ message: "API running..." });
+});
+
 const connectDB = require("./config/db");
 connectDB();
 
 app.use("/api", apiRoutes);
-
-const path = require("path");
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../app/build")));
-  app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname, "../app", "build", "index.html"))
-  );
-} else {
-  app.get("/", (req, res) => {
-    res.json({ message: "API running..." });
-  });
-}
 
 app.use((error, req, res, next) => {
   if (process.env.NODE_ENV === "development") {

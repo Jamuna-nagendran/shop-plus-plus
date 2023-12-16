@@ -30,7 +30,7 @@ const AnalyticsPageComponent = ({
   const [dataForSecondSet, setDataForSecondSet] = useState([]);
 
   useEffect(() => {
-    const socket = socketIOClient();
+    const socket = socketIOClient("http://localhost:5000");
     let today = new Date().toDateString();
     const handler = (newOrder) => {
       var orderDate = new Date(newOrder.createdAt).toLocaleString("en-US", {
