@@ -30,7 +30,15 @@ const AnalyticsPageComponent = ({
   const [dataForSecondSet, setDataForSecondSet] = useState([]);
 
   useEffect(() => {
-    const socket = socketIOClient("http://localhost:5000");
+    let socket;
+
+    if (process.env.NODE_ENV === "development") {
+      // Use the local development server URL
+      socket = socketIOClient("http://localhost:5000");
+    } else {
+      // Use the production server URL
+      socket = socketIOClient("https://app-dgzh.onrender.com");
+    }
     let today = new Date().toDateString();
     const handler = (newOrder) => {
       var orderDate = new Date(newOrder.createdAt).toLocaleString("en-US", {

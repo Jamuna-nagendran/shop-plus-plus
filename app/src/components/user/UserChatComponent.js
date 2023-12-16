@@ -21,7 +21,15 @@ const UserChatComponent = () => {
     if (!userInfo.isAdmin) {
       setReconnect(false);
       var audio = new Audio("/audio/chat-msg.mp3");
-      const socket = socketIOClient("http://localhost:5000");
+      let socket;
+
+      if (process.env.NODE_ENV === "development") {
+        // Use the local development server URL
+        socket = socketIOClient("http://localhost:5000");
+      } else {
+        // Use the production server URL
+        socket = socketIOClient("https://app-dgzh.onrender.com");
+      }
       socket.on("no admin", (msg) => {
         setChat((chat) => {
           return [...chat, { admin: "no admin here now" }];
