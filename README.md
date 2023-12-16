@@ -33,7 +33,7 @@ Shop plus plus encompasses a range of features designed to enhance the online sh
 
 ```bash
 #Clone the repository
-git clone https://github.com/your-username/shop-plus-plus.git
+git clone https://github.com/Jamuna-nagendran/shop-plus-plus.git
 
 #Change into the project directory folder
 cd shop-plus-plus
@@ -53,7 +53,7 @@ npm install
 
 > **Note:** Make sure you have your own credentials
 
-- In `backend/.env` file for the `MONGO_URI` variable.
+- In `server/.env` file for the `MONGO_URI` variable.
 - In `app/src/pages/user/UserOrderDetailsPage.js` for PayPal `client-id`.
 
 > This ensures that you use your own credentials for MongoDB and PayPal integration.
