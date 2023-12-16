@@ -33,7 +33,7 @@ Shop plus plus encompasses a range of features designed to enhance the online sh
 
 ```bash
 #Clone the repository
-git clone https://github.com/your-username/shop-plus-plus.git
+git clone https://github.com/Jamuna-nagendran/shop-plus-plus.git
 
 #Change into the project directory folder
 cd shop-plus-plus
