@@ -6,38 +6,24 @@ import formatPrice from "../utils/priceFormatter";
 
 const ProductForListComponent = ({ products }) => {
   return (
-    <Row>
+    <Row xs={1} md={2} lg={3} className="g-4">
       {products.map((product) => (
-        <Col md={4} key={product._id}>
-          <Card
-            style={{
-              marginTop: "30px",
-              marginBottom: "50px",
-              marginLeft: "50px",
-              marginRight: "20px",
-            }}
-          >
+        <Col key={product._id}>
+          <Card className="h-100">
             <Card.Img
               crossOrigin="anonymous"
               variant="top"
               src={product.images[0] ? product.images[0].path : ""}
             />
-            <Card.Body
-              style={{
-                height: "300px",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-between",
-              }}
-            >
+            <Card.Body className="d-flex flex-column justify-content-between">
               <div>
                 <Card.Title>{product.name}</Card.Title>
+              </div>
+              <div>
                 <Card.Text>
                   <Rating readonly size={20} initialValue={product.rating} /> (
                   {product.reviewsNumber})
                 </Card.Text>
-              </div>
-              <div>
                 <Card.Text className="h4">
                   {formatPrice(product.price)}{" "}
                   <LinkContainer to={`/product-details/${product._id}`}>

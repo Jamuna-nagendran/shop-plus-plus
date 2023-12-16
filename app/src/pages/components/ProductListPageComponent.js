@@ -140,13 +140,17 @@ const ProductListPageComponent = ({ getProducts, categories }) => {
           </ListGroup>
         </Col>
         <Col md={8}>
-          {loading ? (
-            <h1>Loading products ....</h1>
-          ) : error ? (
-            <h1>Error while loading products. Try again later.</h1>
-          ) : (
-            <ProductForListComponent products={products} />
-          )}
+          <div className="mb-4 mt-4">
+            {" "}
+            {/* Add margin top here */}
+            {loading ? (
+              <h1>Loading products ....</h1>
+            ) : error ? (
+              <h1>Error while loading products. Try again later.</h1>
+            ) : (
+              <ProductForListComponent products={products} />
+            )}
+          </div>
           {paginationLinksNumber > 1 ? (
             <PaginationComponent
               categoryName={categoryName}

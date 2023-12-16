@@ -9,28 +9,35 @@ const ProtectedRoutesComponent = ({ admin }) => {
   const [isAuth, setIsAuth] = useState();
 
   useEffect(() => {
-     axios.get("/api/get-token").then(function (data) {
-         if (data.data.token) {
-             setIsAuth(data.data.token);
-         }
-         return isAuth;
-     }) 
-  }, [isAuth])
+    axios
+      .get("/api/get-token")
+      .then(function (data) {
+        if (data.data.token) {
+          setIsAuth(data.data.token);
+        }
+      })
+      .catch(function (error) {
+        // Handle unauthorized error
+        if (error.response && error.response.status === 401) {
+          setIsAuth(undefined); // or set it to undefined or false based on your logic
+        }
+      });
+  }, []);
 
   if (isAuth === undefined) return <LoginPage />;
 
   return isAuth && admin && isAuth !== "admin" ? (
-       <Navigate to="/login" />
+    <Navigate to="/login" />
   ) : isAuth && admin ? (
-      <Outlet />
+    <Outlet />
   ) : isAuth && !admin ? (
-      <>
+    <>
       <UserChatComponent />
       <Outlet />
-      </>
+    </>
   ) : (
-       <Navigate to="/login" />
-  )
+    <Navigate to="/login" />
+  );
 };
 
 export default ProtectedRoutesComponent;
