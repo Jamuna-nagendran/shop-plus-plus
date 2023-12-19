@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import LazyLoad from "react-lazyload";
 
 const ProductCarouselComponent = ({ bestSellers }) => {
-  const [textColor, setTextColor] = useState("white"); // Default text color
-  const [backgroundColor, setBackgroundColor] = useState("rgba(0, 0, 0, 0.5)"); // Default background color
+  const [textColor, setTextColor] = useState("white");
+  const [backgroundColor, setBackgroundColor] = useState("rgba(0, 0, 0, 0.5)");
 
   useEffect(() => {
     const calculateContrast = (r, g, b) => {
@@ -22,7 +23,7 @@ const ProductCarouselComponent = ({ bestSellers }) => {
       img.onload = () => {
         const canvas = document.createElement("canvas");
         const ctx = canvas.getContext("2d");
-        ctx.drawImage(img, 0, 0, 1, 1); // Draw a 1x1 pixel image
+        ctx.drawImage(img, 0, 0, 1, 1);
 
         const [r, g, b] = ctx.getImageData(0, 0, 1, 1).data;
         const contrastType = calculateContrast(r, g, b);
@@ -41,13 +42,19 @@ const ProductCarouselComponent = ({ bestSellers }) => {
     <Carousel style={{ height: "550px", overflow: "hidden" }}>
       {bestSellers.map((item, idx) => (
         <Carousel.Item key={idx}>
-          <img
-            crossOrigin="anonymous"
-            className="d-block w-100"
-            style={{ objectFit: "cover", height: "500px", maxHeight: "500px" }}
-            src={item.images ? item.images[0].path : null}
-            alt={`Slide ${idx + 1}`}
-          />
+          <LazyLoad height={500} offset={100}>
+            <img
+              crossOrigin="anonymous"
+              className="d-block w-100"
+              style={{
+                objectFit: "cover",
+                height: "500px",
+                maxHeight: "500px",
+              }}
+              src={item.images ? item.images[0].path : null}
+              alt={`Slide ${idx + 1}`}
+            />
+          </LazyLoad>
           <Carousel.Caption
             style={{ color: textColor, backgroundColor: backgroundColor }}
           >

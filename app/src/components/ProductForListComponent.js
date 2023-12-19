@@ -3,6 +3,7 @@ import { Card, Button, Row, Col } from "react-bootstrap";
 import { Rating } from "react-simple-star-rating";
 import { LinkContainer } from "react-router-bootstrap";
 import formatPrice from "../utils/priceFormatter";
+import LazyLoad from "react-lazyload";
 
 const ProductForListComponent = ({ products }) => {
   return (
@@ -10,11 +11,13 @@ const ProductForListComponent = ({ products }) => {
       {products.map((product) => (
         <Col key={product._id}>
           <Card className="h-100">
-            <Card.Img
-              crossOrigin="anonymous"
-              variant="top"
-              src={product.images[0] ? product.images[0].path : ""}
-            />
+            <LazyLoad height={200} offset={100}>
+              <Card.Img
+                crossOrigin="anonymous"
+                variant="top"
+                src={product.images[0] ? product.images[0].path : ""}
+              />
+            </LazyLoad>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
                 <Card.Title>{product.name}</Card.Title>

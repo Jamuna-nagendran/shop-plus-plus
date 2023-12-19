@@ -1,3 +1,4 @@
+import React, { useEffect, useState, useRef } from "react";
 import {
   Row,
   Col,
@@ -13,10 +14,8 @@ import AddedToCartMessageComponent from "../../components/AddedToCartMessageComp
 import formatPrice from "../../utils/priceFormatter";
 
 import ImageZoom from "js-image-zoom";
-import { useEffect, useState, useRef } from "react";
-import MetaComponent from "../../components/MetaComponent";
-
 import { useParams } from "react-router-dom";
+import LazyLoad from "react-lazyload"; // Import LazyLoad
 
 const ProductDetailsPageComponent = ({
   addToCartReduxAction,
@@ -110,15 +109,11 @@ const ProductDetailsPageComponent = ({
 
   return (
     <>
-      <MetaComponent
-        title={product.name}
-        description={createDescriptionParagraphs(product.description)}
+      <AddedToCartMessageComponent
+        showCartMessage={showCartMessage}
+        setShowCartMessage={setShowCartMessage}
       />
       <Container>
-        <AddedToCartMessageComponent
-          showCartMessage={showCartMessage}
-          setShowCartMessage={setShowCartMessage}
-        />
         <Row className="mt-5">
           {loading ? (
             <h2>Loading product details ...</h2>
@@ -130,13 +125,15 @@ const ProductDetailsPageComponent = ({
                 {product.images
                   ? product.images.map((image, id) => (
                       <div key={id}>
-                        <div key={id} id={`imageId${id + 1}`}>
-                          <Image
-                            crossOrigin="anonymous"
-                            fluid
-                            src={`${image.path ?? null}`}
-                          />
-                        </div>
+                        <LazyLoad height={200} offset={100}>
+                          <div key={id} id={`imageId${id + 1}`}>
+                            <Image
+                              crossOrigin="anonymous"
+                              fluid
+                              src={`${image.path ?? null}`}
+                            />
+                          </div>
+                        </LazyLoad>
                         <br />
                       </div>
                     ))

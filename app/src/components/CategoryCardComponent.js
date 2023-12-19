@@ -1,5 +1,7 @@
+import React from "react";
 import { Card, Button, Col } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import LazyLoad from "react-lazyload";
 
 const CategoryCardComponent = ({ category, idx }) => {
   return (
@@ -11,11 +13,14 @@ const CategoryCardComponent = ({ category, idx }) => {
           flexDirection: "column",
         }}
       >
-        <Card.Img
-          crossOrigin="anonymous"
-          variant="top"
-          src={category.image ?? null}
-        />
+        <LazyLoad height={200} offset={100}>
+          <Card.Img
+            crossOrigin="anonymous"
+            variant="top"
+            src={category.image ?? null}
+            loading="lazy"
+          />
+        </LazyLoad>
         <Card.Body style={{ flex: "1" }}>
           <Card.Title>{category.name}</Card.Title>
           <Card.Text style={{ flex: "1", overflow: "hidden" }}>
