@@ -1,9 +1,9 @@
 import ProductCarouselComponent from "../../components/ProductCarouselComponent";
 import CategoryCardComponent from "../../components/CategoryCardComponent";
-import { Row, Container, Alert, Spinner } from "react-bootstrap";
-
+import { Row, Container, Spinner, Alert } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import MetaComponent from "../../components/MetaComponent";
+import axios from "axios";
 
 const HomePageComponent = ({ categories, getBestsellers }) => {
   const [mainCategories, setMainCategories] = useState([]);
@@ -14,23 +14,27 @@ const HomePageComponent = ({ categories, getBestsellers }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const bestSellersData = await getBestsellers();
-        setBestsellers(bestSellersData);
+        const [bestsellersData, categoriesData] = await Promise.all([
+          getBestsellers(),
+          axios.get("/api/categories"),
+        ]);
 
-        const mainCategoriesData = categories.filter(
-          (item) => !item.name.includes("/")
+        setBestsellers(bestsellersData);
+        setMainCategories(
+          categoriesData.data.filter((item) => !item.name.includes("/"))
         );
-        setMainCategories(mainCategoriesData);
-        setLoading(false); // Set loading to false after data is fetched
-      } catch (err) {
-        setError(err.response?.data?.message || "An error occurred");
-        setLoading(false); // Set loading to false in case of an error
-        console.error(err.response?.data?.message || "An error occurred", err);
+      } catch (error) {
+        setError(
+          error.response?.data?.message ||
+            "An error occurred while fetching data."
+        );
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchData();
-  }, [categories, getBestsellers]);
+  }, []);
 
   return (
     <>
