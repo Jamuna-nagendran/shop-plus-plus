@@ -39,60 +39,6 @@ const categories = [
     ],
   },
   {
-    name: "Books",
-    description:
-      "Embark on literary adventures with our extensive collection of books. From gripping novels to insightful non-fiction, our selection caters to diverse tastes, offering a world of knowledge and imagination at your fingertips.",
-    image: "/images/books-category.jpg",
-    attrs: [
-      {
-        key: "English and Indian Languages",
-        value: ["English", "Hindi", "Marathi", "Tamil", "Telugu"],
-      },
-      {
-        key: "Item Condition",
-        value: ["New", "Used"],
-      },
-      {
-        key: "Foreign Languages",
-        value: ["French", "German", "Japanese", "Spanish"],
-      },
-      {
-        key: "Format",
-        value: [
-          "Audiobook",
-          "Bundle",
-          "Hardcover",
-          "Kindle Edition",
-          "Paperback",
-        ],
-      },
-      {
-        key: "Author",
-        value: [
-          "Jan Yager",
-          "Darko Macan",
-          "Darick Robertson",
-          "Stephen R. Covey",
-          "J.K. Rowling",
-        ],
-      },
-      {
-        key: "Seller",
-        value: [
-          "Cocoblu Retail",
-          "Repro Books-On-Demand",
-          "Inetrade India",
-          "Amazing_Buy",
-          "uRead-Store",
-          "Trans Infopreneur Inc",
-          "Mumbai gift corner",
-          "Browsers' Lounge",
-          "Sunrise Book store",
-        ],
-      },
-    ],
-  },
-  {
     name: "Baby",
     description:
       "Discover a world of joy for your little one with our charming baby essentials. From soft, cuddly clothing to practical accessories, our collection is tailored to provide comfort and style for your precious bundle of joy.",
