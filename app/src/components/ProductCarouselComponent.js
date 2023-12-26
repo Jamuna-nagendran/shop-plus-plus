@@ -9,7 +9,7 @@ const ProductCarouselComponent = ({ bestSellers }) => {
   useEffect(() => {
     const calculateContrast = (r, g, b) => {
       const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
-      return luminance > 0.5 ? "dark" : "light";
+      return luminance > 0.5 ? "white" : "black"; // Return color directly based on luminance
     };
 
     const imagePath = bestSellers[0]?.images?.[0]?.path;
@@ -25,10 +25,11 @@ const ProductCarouselComponent = ({ bestSellers }) => {
         ctx.drawImage(img, 0, 0, 1, 1);
 
         const [r, g, b] = ctx.getImageData(0, 0, 1, 1).data;
-        const contrastType = calculateContrast(r, g, b);
+        const textColor = calculateContrast(r, g, b);
+        const backgroundColor = `rgba(${r}, ${g}, ${b}, 0.8)`;
 
-        setTextColor("black");
-        setBackgroundColor(`rgba(${r}, ${g}, ${b}, 0.8)`);
+        setTextColor(textColor);
+        setBackgroundColor(backgroundColor);
       };
     }
   }, [bestSellers]);

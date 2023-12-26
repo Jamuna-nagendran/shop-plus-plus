@@ -1,4 +1,5 @@
 require("dotenv").config();
+const compression = require("compression");
 const helmet = require("helmet");
 const { createServer } = require("http");
 const { Server } = require("socket.io");
@@ -7,7 +8,7 @@ const fileUpload = require("express-fileupload");
 const cookieParser = require("cookie-parser");
 
 const app = express();
-
+app.use(compression());
 app.use(helmet());
 
 const httpServer = createServer(app);
